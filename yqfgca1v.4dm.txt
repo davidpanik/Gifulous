@@ -1,0 +1,35 @@
+﻿Adding first version
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitattributes
+#	new file:   .gitignore
+#	new file:   _facebook.jpg
+#	new file:   apple-touch-icon-precomposed.png
+#	new file:   common.php
+#	new file:   css/main.css
+#	new file:   css/reset.css
+#	new file:   facebook.jpg
+#	new file:   favicon.ico
+#	new file:   img/facebook.png
+#	new file:   img/logo_large.png
+#	new file:   img/logo_small.png
+#	new file:   img/twitter.png
+#	new file:   index.php
+#	new file:   js/jquery.js
+#	new file:   js/main.js
+#	new file:   lib/class.MySQL.php
+#	new file:   settings.php
+#	new file:   todo.txt
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	de00rtg2.3yb.txt
+

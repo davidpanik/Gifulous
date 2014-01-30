@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule   ^id/(.+)$   /?id=$1   [L]
+RewriteRule   ^view/(.+)$   /?id=$1   [L]
+RewriteRule   ^report/(.+)$   /?report=$1   [L]
+RewriteRule   ^add/(.+)$   /?url=$1   [L]

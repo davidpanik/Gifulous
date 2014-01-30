@@ -1,10 +1,15 @@
 (function(){
-	// If the user clicks the mouse of pushes a key, then load a random gif
-	var newGif = function() {
-		//window.location = "?id=random";
-		window.location = "/id/random";
+	var goTo = function(url) {
+		window.location = url;
 	};
 
+	// If the user clicks the mouse of pushes a key, then load a random gif
+	var newGif = function() {
+		//goTo("?id=random");
+		goTo("/id/random");
+	};
+
+	// Ensure page contents always fill the window correctly
 	var contentSizing = function() {
 		function sizeContent() {			
 			$("#content")
@@ -15,7 +20,23 @@
 		sizeContent();
 		$(window).resize(sizeContent);
 	};
-
+	
+	var userActions = function() {
+		$("#add").on("click", function() {
+			var url = prompt("Enter the URL of the GIF you would like to add:");
+			
+			if (url != "" && url != null)
+				goTo("../?url=" + url);
+			return false;
+		});
+		
+		$("#report").on("click", function() {
+			if (confirm("Do you wish to report this GIF as being broken or inappropriate?"))
+				goTo("../report/" + id);
+			return false;
+		});
+	};
+	
 	var socialSharing = function() {
 		var createTwitterLink = function (url, text, hashtags) {
 			var link =
@@ -78,6 +99,7 @@
 			setTimeout(newGif, 500);
 			
 		contentSizing();
+		userActions();
 		socialSharing();
 	});
 }())

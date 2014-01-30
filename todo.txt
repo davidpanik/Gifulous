@@ -1,2 +1,9 @@
-Rename databases
-Add rotation
+Better form elements
+Update on GIT
+
+
+
+Icons came from here:
+http://www.designdeck.co.uk/a/1252
+http://www.1stwebdesigner.com/freebies/minimal-icons-2012/
+http://glyphicons.com/

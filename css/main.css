@@ -54,8 +54,18 @@ body,
 	transition-property: transform;	
 }
 
+#add {
+	right: 106px;
+	background-image: url(../img/add.png);
+}
+
+#report {
+	right: 70px;
+	background-image: url(../img/report.png);
+}
+
 #facebook {
-	right: 42px;
+	right: 40px;
 	background-image: url(../img/facebook.png);
 }
 
